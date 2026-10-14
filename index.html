@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinetiq Dance Company — Contemporary Dance in San Diego</title>
+<meta name="description" content="Kinetiq Dance Company — a contemporary dance collective founded by Josephine Venegas. Performances, training, and a community built on movement.">
+<meta name="theme-color" content="#F5F2EC">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="/" aria-label="Kinetiq Dance Company">
+      <span class="wordmark">Kinetiq</span>
+      <span class="sub">dance company</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#season">Season</a>
+      <a href="#apply">Apply</a>
+      <a href="#performances">Performances</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#apply" class="cta-btn">Apply Now</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container">
+    <span class="hero-tag">Contemporary Dance · San Diego, CA</span>
+    <h1>A movement collective<br>built on <em>connection.</em></h1>
+    <p class="hero-lede">Kinetiq Dance Company brings together contemporary dancers to train, create, and perform. Founded by Josephine Venegas.</p>
+    <div class="hero-buttons">
+      <a href="#apply" class="btn-primary">Apply to Join</a>
+      <a href="#season" class="btn-secondary">Season Info</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container narrow">
+    <span class="section-tag">About</span>
+    <h2>We believe dance should be <em>accessible.</em></h2>
+    <p>Kinetiq Dance Company is a contemporary dance collective based in San Diego. We exist to give dancers a space to grow, create, and perform — without the barriers that usually come with it.</p>
+    <p>Our seasons run in cycles, with weekly rehearsals, collaborative choreography, and a final performance. No one is turned away due to lack of funds. If cost is a barrier, reach out.</p>
+    <p class="signature">— Josephine Venegas, Founder</p>
+  </div>
+</section>
+
+<section id="season" class="season">
+  <div class="container">
+    <span class="section-tag">Current Season</span>
+    <h2>Season details.</h2>
+    <div class="season-grid">
+      <div class="season-item">
+        <h3>Rehearsals</h3>
+        <p>Thursdays · 8:00 – 10:30 PM</p>
+        <span class="note">Unless otherwise noted</span>
+      </div>
+      <div class="season-item">
+        <h3>Season Dates</h3>
+        <p>October 15 – December 5</p>
+        <span class="note">12-week cycle</span>
+      </div>
+      <div class="season-item">
+        <h3>Performance</h3>
+        <p>December 5</p>
+        <span class="note">End-of-season showcase</span>
+      </div>
+      <div class="season-item">
+        <h3>Tuition</h3>
+        <p>$80 / month</p>
+        <span class="note">Due Oct 15 &amp; Nov 12</span>
+      </div>
+    </div>
+    <div class="season-note">
+      <p>No one will be turned away due to lack of funds. If you need assistance, please reach out — we'll make it work.</p>
+    </div>
+  </div>
+</section>
+
+<section id="apply" class="apply">
+  <div class="container narrow">
+    <span class="section-tag">Apply</span>
+    <h2>Join the company.</h2>
+    <p>Mid-season applications are open. Acceptance emails are sent by Monday, October 12 at 11:59 PM. Fill out the form below and we'll be in touch.</p>
+    <form class="apply-form" onsubmit="event.preventDefault(); alert('Form submitted. This is a demo — connect to Formspree or Netlify Forms to make it live.');">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="experience">Dance Experience</label>
+        <textarea id="experience" name="experience" rows="4" placeholder="Tell us about your background in dance — styles, years, training, anything you want us to know."></textarea>
+      </div>
+      <div class="form-group">
+        <label for="why">Why Kinetiq?</label>
+        <textarea id="why" name="why" rows="4" placeholder="What draws you to this company? What do you hope to get out of the season?"></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+  </div>
+</section>
+
+<section id="performances" class="performances">
+  <div class="container">
+    <span class="section-tag">Performances</span>
+    <h2>Past &amp; upcoming.</h2>
+    <ul class="performance-list">
+      <li>
+        <div class="perf-date">DEC 5</div>
+        <div class="perf-info">
+          <h3>End of Season Showcase</h3>
+          <p>Location TBA · San Diego, CA</p>
+        </div>
+        <div class="perf-status">Upcoming</div>
+      </li>
+      <li>
+        <div class="perf-date">AUG 2025</div>
+        <div class="perf-info">
+          <h3>Summer Works in Progress</h3>
+          <p>San Diego, CA</p>
+        </div>
+        <div class="perf-status muted">Past</div>
+      </li>
+      <li>
+        <div class="perf-date">MAY 2025</div>
+        <div class="perf-info">
+          <h3>Spring Season Finale</h3>
+          <p>San Diego, CA</p>
+        </div>
+        <div class="perf-status muted">Past</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container narrow">
+    <span class="section-tag">Contact</span>
+    <h2>Get in touch.</h2>
+    <p>Questions about the season, applications, or performances? Reach out.</p>
+    <div class="contact-list">
+      <div class="contact-item">
+        <span class="contact-label">Instagram</span>
+        <a href="https://instagram.com/kinetiqdancecompany" target="_blank" rel="noopener">@kinetiqdancecompany</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Email</span>
+        <a href="mailto:hello@kinetiqdance.com">hello@kinetiqdance.com</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Based In</span>
+        <span>San Diego, California</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-content">
+    <div class="footer-logo">
+      <div class="wordmark">Kinetiq</div>
+      <div class="sub">dance company</div>
+    </div>
+    <div class="footer-info">
+      Founded by Josephine Venegas · San Diego, CA
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    © 2026 Kinetiq Dance Company
+  </div>
+</footer>
+
+</body>
+</html>
